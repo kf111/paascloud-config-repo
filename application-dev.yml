@@ -14,13 +14,13 @@ spring:
     auto: true
   rabbitmq:
     host: paascloud-mq-rabbit
-    port: 5672
+    port: 15672
     username: guest
     password: guest
   redis:
     host: paascloud-db-redis
-    password: paascloud@redis
-    port: 6379
+    password: 123456
+    port: 7001
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
